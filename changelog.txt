@@ -1,0 +1,36 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 2024.10.31
+  Features:
+    - Updated for 2.0
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 2021.07.22
+  Features:
+    - Autolinked chests can be set with a default inventory limit, to automatically set the storage size limit on newly built ones.
+    - Options on autolinked chest default inventory limit.  (Default: 48.)
+    - More options on autolinked chest storage size.
+  Optimisations:
+    - Minor code refactoring.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2020.12.19
+  Features:
+    - Introduced autolinked chest.
+    - Randomized link ID on built, so saving time in management of link ID checkboxes in vanilla implementation.
+    - Disallowed to fast replace with other chests, to prevent lost of items.
+    - Disallowed to link multiple non-empty inventories, to prevent lost of items.
+    - Autolinked chests can be linked automatically on built, sharing the same inventory.
+    - Autolinked chests can be linked manually by hotkey and shortcut, sharing the same inventory.
+    - Introduced hotkey (default: Ctrl-O) to link chests.
+    - Introduced shortcuts to link chests.
+    - Options on autolinked chest storage size.
+    - Options on link ID display as flying text on selection.
+    - Options on link chests with neighbours on built.  (Default: on.)
+    - Options on link chests on hotkey and shortcut enable.  (Default: on.)
+  Locale:
+    - English is available.
+    - Other languages are available in separate mod "Schall Language Pack".
+  License:
+    - Using Bob's Copyright License.  Document included.
